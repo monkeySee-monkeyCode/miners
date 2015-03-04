@@ -2,6 +2,8 @@ package com.juma.miners.gamedomain;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
@@ -13,6 +15,7 @@ import static org.mockito.Mockito.when;
 public class MiningZoneTest {
 
     private MiningZone subject;
+
     private MineClock mineClock;
 
     @Before

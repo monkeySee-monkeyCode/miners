@@ -1,7 +1,5 @@
 package com.juma.miners.gamedomain;
 
-import javax.annotation.Resource;
-
 /**
  * @author marc.vis
  */
